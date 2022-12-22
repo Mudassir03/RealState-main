@@ -25,17 +25,26 @@
 
 .git-btn{
     background-color: rgba(141, 11, 201, 0.721);
-    color: white;
+    color: rgba(255, 255, 255, 0.916);
     border-radius: 30px;
     border: none;
     transition:300ms ;
+    box-shadow: inset 1px 1px 11px rgba(15, 15, 15, 0.904),  1px 1px 10px rgba(15, 15, 15, 0.573);
+    
 }
 .git-btn:hover{
+    transition:900ms ;
     background-color: rgba(141  , 11, 201, 0.916);
+    
+   
+   
+    box-shadow:  1px 1px 10px rgba(15, 15, 15, 0.573), inset 1px 1px 10px rgba(15, 15, 15, 0.674);
+    
 
 }
 .git-btn>h3{
-    padding: 3px;
+    margin: 0px;
+    padding:7px 3px;
 }
 
 
