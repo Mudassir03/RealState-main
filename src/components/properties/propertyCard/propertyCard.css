@@ -1,0 +1,43 @@
+.propertyCard{
+   display: inline-block;
+    max-width: 350px;
+  border: 1px solid goldenrod;
+  transition: 500ms;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.propertyImg{
+    /* object-fit: cover; */
+    width: 95%;
+    /* height: 200px; */
+    margin: 9px;
+}
+
+.propertyText{
+    margin-left: 10px;
+}
+
+
+
+
+.propertyText p{
+    font-weight: 500;
+   
+}
+.address{
+    color: rgba(0, 0, 0, 0.584);
+}
+.des{
+    color: rgba(0, 0, 0, 0.584);
+
+}
+
+
+@media(max-width: 992px){
+    .propertyCard{
+        width: 320px;
+    }
+}

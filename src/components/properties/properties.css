@@ -1,0 +1,46 @@
+.properties{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+
+.heading{
+    text-align: start   ;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 208, 0);
+    text-underline-offset: 15px;
+    text-transform: uppercase;
+
+}
+.heading>span{
+    color: rgb(255, 208, 0);
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 30px;
+}
+
+.git-btn{
+    background-color: rgba(141, 11, 201, 0.721);
+    color: white;
+    border-radius: 30px;
+    border: none;
+    transition:300ms ;
+}
+.git-btn:hover{
+    background-color: rgba(141  , 11, 201, 0.916);
+
+}
+.git-btn>h3{
+    padding: 3px;
+}
+
+
+@media(max-width: 992px){
+    .properties{
+        justify-content: space-evenly;
+    }
+}
