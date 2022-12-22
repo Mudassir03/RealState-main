@@ -16,11 +16,11 @@ export default function Detail() {
           </div>
           <div className="detailText">
             <h3>{property.name}</h3>
+            <h5>About:</h5>
             <p>{property.des}</p>
             <h5>Description:</h5>
             <p>{property.desText}</p>
-            <h5>About:</h5>
-            <p>{property.des}</p>
+            
           </div>
           
         </div>
