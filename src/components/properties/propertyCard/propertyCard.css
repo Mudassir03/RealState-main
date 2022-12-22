@@ -12,6 +12,7 @@
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.619);
     transition: 300ms;
     background-color: rgba(167, 167, 167, 0.103);
+    border-color: rgba(255, 255, 255, 0);
 }
 
 .propertyImg{
