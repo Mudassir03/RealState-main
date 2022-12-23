@@ -6,7 +6,7 @@ function Ip() {
 
   const getData = async () => {
     const res = await axios.get("https://geolocation-db.com/json/");
-    console.log(res.data);
+   
     setIP(res.data.IPv4);
   };
 
