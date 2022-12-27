@@ -5,7 +5,7 @@ export default function PropertyCard({ property }) {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/detail", { state: property });
+    navigate("/detail", { st: property });
   };
   return (
     <div onClick={() => handleClick()} className="propertyCard">

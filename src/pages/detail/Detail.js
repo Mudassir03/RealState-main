@@ -4,7 +4,7 @@ import "./detail.css";
 
 export default function Detail() {
   const location = useLocation();
-  const property = location.state;
+  const property = location.st;
 
   return (
     <>
